@@ -2,7 +2,6 @@
 class CreateCostumeStores < ActiveRecord::Migration[5.1]
 
   def change
-    #drop_table :costumestores
     create_table :costume_stores do |t|
       t.string :name
       t.string :location
